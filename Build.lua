@@ -1,5 +1,5 @@
 
-workspace "Blank Project"
+workspace "VTTRPG"
 	architecture "x64"
 	configurations { "Debug", "Release", "Dist" }
 	startproject "Application"
