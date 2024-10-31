@@ -4,7 +4,7 @@
 class Sandbox : public Core::Application {
 
 public:
-	Sandbox() { std::cout << "Welcome to a test sandbox application."; }
+	Sandbox() { APP_INFO("Welcome to the sandbox application!"); }
 	~Sandbox() {}
 
 };

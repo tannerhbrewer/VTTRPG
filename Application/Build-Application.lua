@@ -18,7 +18,9 @@ project "Application"
 	includedirs {
 
 		"src",
-		"%{wks.location}/Core/src"
+		"%{wks.location}/Core/src",
+		"%{wks.location}/Core/vendor",
+		"%{wks.location}/Core/vendor/spdlog/include",
 
 	}
 

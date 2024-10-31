@@ -10,14 +10,15 @@ project "Core"
 
 	files {
 
-		"src/**.h",
-		"src/**.cpp",
+		"%{prj.name}/src/**.h",
+		"%{prj.name}/src/**.cpp",
 
 	}
 
 	includedirs {
 
-		"src",
+		"%{prj.name}/src",
+		"%{prj.name}/vendor/spdlog/include",
 
 	}
 
